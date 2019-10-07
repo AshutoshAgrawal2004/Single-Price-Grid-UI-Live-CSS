@@ -1,0 +1,96 @@
+body {
+  Cyan: #29b1af;
+  Bright-Yellow: #bfdf34;
+  Light-Gray: #e5eef4;
+  Grayish-Blue: #98a5bd;
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+h5 {
+  font-weight: 700;
+}
+
+section {
+  padding: 30px;
+}
+
+.container-fluid {
+  background-color: #e5eef4;
+  padding: 20% 10%;
+}
+
+.row {
+  box-shadow: 0px -7px 20px 12px #0000000a;
+}
+
+.col-lg-12,
+.col-lg-6 {
+  padding: 0;
+}
+
+#intro {
+  background-color: #fff;
+}
+
+.intro-heading {
+  color: #29b1af;
+}
+
+.money-back {
+  color: #bfdf34;
+}
+
+.info {
+  color: #98a5bd;
+}
+
+#subscribe {
+  color: #e5eef4;
+  background-color: #29b1af;
+  height: 100%;
+}
+
+.dollar {
+  display: inline;
+}
+
+.btn-sign-up {
+  background-color: #bfdf34;
+  color: white;
+  box-shadow: 0px 6px 10px 3px #00000026;
+}
+
+.btn-sign-up:hover {
+  color: white;
+  background-color: #abc924;
+}
+
+#why-us {
+  background-color: #54c3c2;
+  color: #c7efee;
+}
+
+.why-heading {
+  color: #e5eef4;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #29b1af;
+}
+
+@media(min-width:1000px) {
+  .container-fluid {
+    padding: 7% 15%;
+  }
+
+  section {
+    padding: 50px;
+  }
+}
